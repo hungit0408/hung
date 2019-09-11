@@ -1,0 +1,48 @@
+﻿@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('/Content/fonts/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/Content/fonts/Roboto-Regular.ttf') format('truetype');
+}
+* {
+    font-family: 'Roboto-Regular',Tahoma,sans-serif !important;
+    font-size: 13px;
+}
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+body{
+    min-width: 1100px;
+    white-space: nowrap;
+}
+
+.body-container {
+    display: grid;
+    grid-template-columns: 140px calc(100% - 140px);
+    grid-template-rows: 52px calc(100% - 52px);
+    height: 100%;
+    min-width: 1363px;
+}
+.mshopkeeper-content {
+    display: grid;
+    grid-template-rows: calc(100% - 200px) 200px;
+    grid-row-gap: 8px;
+    background-color: #fff;
+    height: calc(100% - 16px);
+}
+.content-grid {
+    display: grid;
+    grid-template-rows: 37px calc(100% - 77px) 40px;
+}
+.mshopkeeper-main {
+    height: 100%;
+    padding: 8px;
+    background-color: #e2e2e2;
+}
+.grid-master {
+    display: grid;
+    grid-template-rows: 65px calc(100% - 65px);
+}

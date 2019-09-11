@@ -1,0 +1,131 @@
+﻿/*
+logo 
+ */
+.mshopkeeper-logo {
+    background-image: url(/Content/icons/logo-mshopkeeper.png);
+    background-repeat: no-repeat;
+    background-color: #006189;
+    background-position:center;
+}
+/* 
+header
+ */
+
+.mshopkeeper-header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header-left {
+}
+
+.header-right {
+}
+
+.icon-help {
+    background: url('/Content/icons/icon_help_18.png') no-repeat;
+}
+
+.header-left .icon-help {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.header-left div, .header-left a, .header-left span {
+    float: left;
+}
+
+.header-left div {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 8px;
+    margin-right: 20px;
+}
+
+.header-left a {
+    margin-top: 12px;
+    font-weight: 600;
+    color: #026b97;
+}
+
+.header-right .item-mshopkeeper-header {
+    float: right;
+    padding: 8px;
+}
+.header-right .icon-down {
+    background: url('../../Content/icons/arrow-down-line.png') no-repeat center;
+}
+.header-right .icon-logo {
+    border-radius: 16px;
+    background: url("https://misard.mshopkeeper.vn/backendg2/api/Image?id=&type=0&w=50&h=50&CompanyCode=misard") no-repeat center;
+}
+.header-right .icon{
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+.header-right span {
+    font-weight: 600;
+    float: left;
+}
+.header-right .text-header {
+    padding: 8px;
+}
+.item-mshopkeeper-header.logo{
+    height: 52px;
+    width: 46px;
+}
+.item-mshopkeeper-header:hover {
+    cursor:pointer;
+}
+.item-mshopkeeper-header.logo-help {
+    background: url('/Content/icons/icon_help_18.png') no-repeat center;
+}
+.item-mshopkeeper-header.logo-notify {
+    background: url('/Content/icons/notify-18.png') no-repeat center;
+}
+.item-mshopkeeper-header.logo-support {
+    background: url('/Content/icons/misasupport_1.png') no-repeat center #026b97;
+}
+.item-mshopkeeper-header .wrap-select{
+    height: 32px;
+    border:1px solid #d0d0d0;
+    border-radius: 3px;
+}
+.filter-header .icon-compare {
+    border: 1px solid #d0d0d0;
+    text-align:center;
+    padding-top: 8px;
+}
+    .filter-header .icon-compare:hover{
+        cursor:pointer;
+    }
+    .filter-header input {
+        width: 100%;
+        height: 32px;
+        border: none;
+        outline: none;
+        text-indent: 8px;
+    }
+.filter-header [fieldSelect="Date"]{
+    width: calc(100% - 25px);
+}
+.filter-header .input-filter, .input-filter-type {
+    border: 1px solid #d0d0d0;
+}
+.input-filter-type{
+    height:34px;
+    width:100%;
+}
+.input-filter-type .arrow-down {
+    display: block;
+    height: 32px;
+    width: 24px;
+    float: left;
+    background: url(../../Content/icons/arrow-down-line.png) no-repeat center;
+}
+.filter-header .select-type{
+    float: left;
+    width: calc(100% - 24px);
+}

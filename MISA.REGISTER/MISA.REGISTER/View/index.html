@@ -1,0 +1,171 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>demos</title>
+    <!-- meta_tags-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta />
+   
+    <link href="/CSS/jquery-ui.css" rel="stylesheet" />
+    <link href="/CSS/style.css" rel="stylesheet" />
+    <link href="/CSS/custom-font.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="w3l-head">
+        <h1>Form Đăng ký ứng tuyển MISA-SOFTWARE</h1>
+    </div>
+    <div class="w3ls-form">
+        <form action="" medthod="post" name="formlogin"  onsubmit="return ValidateForm(this)">
+            <div class="w3l-last-grid1">
+                <div class="w3l-grid1">
+                    <label class="text">Họ và tên<span class="required-label">(*)<span>:</label>
+                    <div class="w3l-div">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" name="name" placeholder="Họ và tên " />
+
+                    </div>
+                    <div class="notification" id="error-username"></div>
+
+                </div>
+                <div class="w3l-grid2">
+                    <label class="text">Đăng kí tham gia khóa học:<span class="required-label">(*)</span></label>
+                    <div class="w3l-div">
+
+                        <select class="form-contro2" required="">
+                            <option>WEB DEVELOPER TRAINNING 2019</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="w3l-last-grid1">
+                <div class="w3l-grid1">
+                    <label class="text">Email<span class="required-label">(*)</span></label>
+                    <div class="w3l-div">
+
+
+                        <input type="email" name="email"  id='email' placeholder="e-mail" required=""  />
+
+                    </div>
+                </div>
+                <div class="w3l-grid2">
+                    <label class="text">Thời gian đào tạo khóa học:</label>
+                    <div class="w3l-div">
+                        <select class="form-contro2" required="">
+                            <option>Part Time</option>
+                            <option>Full Time</option>
+
+                        </select>
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="w3l-last-grid1">
+                    <div class="w3l-grid1">
+                        <div class="w3l-grid1-top">
+                            <label class="text">Điện thoại di động<span class="required-label">(*)</span></label>
+                            <div class="w3l-div">
+                                <input type="text" name="phone" pattern="[0-9]{3}[0-9]{2}[0-9]{3}" required="" placeholder="Điện thoại di động">
+                            </div>
+                        </div>
+                        <div class="w3l-grid1-bottom">
+                            <label class="text">Trường đào tạo<span class="required-label">(*)</span>:</label>
+                            <div class="w3l-div">
+                                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                <select id="selection" class="form-control" required="">
+                                    <option value="se">Chọn trường đào tạo</option>
+                                    <option>ĐH Bách Khoa Hà Nội</option>
+                                    <option>ĐH Công Nghệ</option>
+                                    <option>ĐH Bưu Chính </option>
+                                </select>
+                            </div>
+                            <div class="notification" id="error-class"></div>
+
+                        </div>
+                    </div>
+                    <div class="w3l-grid2">
+                        <label class="text">Kinh nghiệm làm việc(nếu có):</label>
+
+
+                        <textarea name="" placeholder="Kinh nghiệm làm việc"></textarea>
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="w3l-last-grid1">
+                    <div class="w3l-grid1">
+
+                        <div class="w3l-grid1-top">
+                            <label class="text">Năm tốt nghiệp<span class="required-label">(*)</span></label>
+                            <div class="w3l-div">
+                                <select class="form-control" required="">
+                                    <option>2019</option>
+                                    <option>2018</option>
+                                    <option>2017</option>
+                                    <option>2016</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="w3l-grid1-bottom">
+                            <label class="text">Chuyên ngành<span class="required-label">(*)</span>:</label>
+                            <div class="w3l-div">
+
+                                <input type="text" name="state" placeholder="Chuyên ngành được đào tạo"  />
+                            </div>
+                            <div class="notification" id="error-state"></div>
+
+                        </div>
+                    </div>
+                    <div class="w3l-grid2">
+                        <label class="text">Câu hỏi của bạn dành cho MISA:</label>
+
+                        <textarea name=""></textarea>
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="w3l-right-grid1">
+
+                    <div class="clear"></div>
+                </div>
+
+                <div class="w3l-right-grid1">
+                    <div class="w3l-grid1">
+                        <label class="text">Điểm trung bình các kỳ(Hệ 4)<span class="required-label">(*)</span>:</label>
+                        <div class="w3l-div">
+                            <input type="text" name="" pattern="[0-3]{1}.[0-9]{1}" placeholder="" required />
+                        </div>
+                    </div>
+                    <label class="text">CV đính kèm</label>
+                    <div class="w3l-grid2">
+                        <div class="w3l-div">
+                            <input type="file" name="my file" placeholder="" />
+                        </div>
+                        <div class="notification" id="error-file"></div>
+
+                        <span style="font-size:14px;font-style: italic;">Tệp đính kèm (.dox, .docx, .pdf dung lượng nhỏ hơn 3mb)</span>
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="w3ls-submit button-pane">
+                    <input type="submit" value="ỨNG TUYỂN ">
+                    <input type="submit" style="background-color: #dc3545;" value="HỦY ">
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <!-- Default-JavaScript -->
+    <script src="/Scripts/common/Register.js"></script>
+
+    <script src="/Scripts/lib/jquery-2.1.4.min.js"></script>
+    <!-- Calendar -->
+    <script src="/Scripts/lib/jquery-ui.js"></script>
+</body>
+</html>

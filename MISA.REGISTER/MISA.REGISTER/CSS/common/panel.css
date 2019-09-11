@@ -1,0 +1,62 @@
+﻿.item-content-panel{
+    float:left;
+    display:block;
+}
+.select-date div, .select-date span, .select-date input, .select-range-time input, .select-range-time span{
+    float: left;
+}
+.content-panel .icon{
+    display: block;
+    width: 24px;
+    height: 32px;
+    border-left: 1px solid #d0d0d0;
+}
+.content-panel{
+    padding: 4px 8px;
+    background-color: #fff
+}
+.content-panel .icon-down {
+    background: url(/Content/icons/arrow-down-line.png) no-repeat center;
+}
+.content-panel .icon-calender {
+    background: url('/Content/icons/common-icon.png') no-repeat 0px -169px;
+}
+    .content-panel input {
+        border: none;
+        outline: none;
+        height: 30px;
+        text-indent: 8px;
+        border-radius: 3px;
+        width:90px;
+        margin-top: 2px;
+    }
+.select-range-time, .select-start-date div, .select-end-date div{
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    margin: 0 8px;
+}
+.content-panel .panel-text {
+    padding: 8px 8px 8px 0;
+}
+.content-panel a, .content-panel span {
+    display: block;
+    float:left;
+}
+.content-panel .icon-filter {
+    height: 32px;
+    width: 24px;
+    background: url('/Content/icons/common-icon.png') no-repeat -598px -119px;
+}
+.content-panel .btn-filter {
+    border: 1px solid #026b97;
+    border-radius: 3px;
+    height: 32px;
+}
+.content-panel .btn-filter .panel-text{
+    color: #026b97;
+    font-weight: 600;
+}
+.paging-right{
+    position: absolute !important;
+    right: 8px !important;
+}

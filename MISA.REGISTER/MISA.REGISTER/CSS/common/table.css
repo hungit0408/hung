@@ -1,0 +1,35 @@
+﻿table {
+    width: 100%;
+    border-spacing: 0 !important;
+}
+
+td {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 4px 8px;
+}
+
+tr {
+    height: 33px;
+}
+
+th {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align:center;
+    background-color:#e5e6eb;
+    padding: 4px 8px;
+    font-weight: bold;
+}
+th:last-child{
+    border-right:0;
+}
+td:last-child{
+    border-right:none;
+}
+tr.choose-select {
+    background-color: #C3ECFF !important;
+}

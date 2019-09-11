@@ -1,0 +1,78 @@
+﻿.menu-icon {
+    height: 30px;
+    width: 22px;
+    background-image: url('../../Content/icons/slibarmenu.png');
+    background-repeat: no-repeat;
+}
+.menu-general {
+    background-position: -1px 3px;
+}
+.menu-note {
+    background: url('/Content/icons/ic_sogiaohang.png') no-repeat 3px 6px;
+}
+.menu-sms {
+    background: url('/Content/icons/sms_menu.svg') no-repeat center 7px;
+}
+.menu-bill {
+    background: url('/Content/icons/Logo_meInvoice.svg') no-repeat center 6px;
+}
+.menu-help {
+    background: url('/Content/icons/slibarmenu.png') no-repeat -1px -384px;
+}
+.menu-phone {
+    background: url('/Content/icons/slibarmenu.png') no-repeat -1px -420px;
+}
+.menu-ocm {
+    background: url('/Content/icons/ic_ocm_logo.png') no-repeat 3px 8px;
+}
+.menu-5shop {
+    background: url('/Content/icons/icon_5shop_white_24_1.png') no-repeat -1px 4px;
+}
+.menu-api {
+    background: url('/Content/icons/ic_api_20.svg') no-repeat 1px 8px;
+}
+.menu-report {
+    background-position: -1px -275px;
+}
+.menu-buy {
+    background-position: -2px -35px;
+}
+.menu-warehouse {
+    background-position: -1px -77px;
+}
+.menu-refund {
+    background-position: -1px -117px;
+}
+.menu-cost {
+    background-position: -3px -156px;
+}
+.menu-promotion {
+    background-position: -1px -196px;
+}
+.menu-category {
+    background-position: -1px -234px;
+}
+.menu-setting {
+    background-position: -1px -315px;
+}
+.mshopkeeper-menu .menu-item {
+    display: flex;
+    align-items:center;
+    height: calc(100% /17);
+    width: 100%;
+    padding: 8px;
+}
+    .mshopkeeper-menu .menu-item:hover {
+        background-color: #00577b;
+    }
+.mshopkeeper-menu {
+    background-color: #026b97;
+}
+.mshopkeeper-menu span{
+    color: #fff;
+    display: block;
+    float: left;
+}
+.mshopkeeper-menu .link-text{
+    padding: 4px;
+}

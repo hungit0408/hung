@@ -1,0 +1,482 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: "Roboto Condensed", sans-serif !important;
+    font-size: .97em;
+}
+
+textarea {
+    width: 292px;
+    height: 88px;
+    margin-top: 9px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*--start editing from here--*/
+a {
+    text-decoration: none;
+}
+
+.txt-rt {
+    text-align: right;
+}
+/* text align right */
+.txt-lt {
+    text-align: left;
+}
+/* text align left */
+.txt-center {
+    text-align: center;
+}
+/* text align center */
+.float-rt {
+    float: right;
+}
+/* float right */
+.float-lt {
+    float: left;
+}
+/* float left */
+.clear {
+    clear: both;
+}
+/* clear float */
+.pos-relative {
+    position: relative;
+}
+/* Position Relative */
+.pos-absolute {
+    position: absolute;
+}
+/* Position Absolute */
+.vertical-base {
+    vertical-align: baseline;
+}
+/* vertical align baseline */
+.vertical-top {
+    vertical-align: top;
+}
+/* vertical align top */
+nav.vertical ul li {
+    display: block;
+}
+/* vertical menu */
+nav.horizontal ul li {
+    display: inline-block;
+}
+/* horizontal menu */
+img {
+    max-width: 100%;
+}
+/*--end reset--*/
+body {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    padding: 10px 0 10px;
+    margin: 10px 0;
+    color: #fff;
+    font-family: 'Roboto', serif;
+}
+
+.w3ls-form {
+    padding: 10px;
+    width: 640px;
+    margin: 0 auto;
+    box-shadow: 3px 3px #ccc;
+    border: solid 1px #ccc;
+}
+
+.w3l-grid1, .w3l-grid2 {
+    float: left;
+    width: 49%;
+    margin-left: 6px;
+}
+
+label.text {
+    font-size: .9em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    color: #222;
+}
+
+label.w3l-set {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2px;
+    color: #3ce0b4;
+    cursor: pointer;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.w3ls-submit {
+    text-align: right;
+    margin: 10px 0 0;
+}
+
+input[type="text"], input[type="email"] {
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    width: 93%;
+    background: rgba(255, 255, 255, 0);
+    color: #999;
+}
+
+select.form-control, select.form-contro2, select.form-contro3 {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    width: 93%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    color: #999;
+    height: 35px;
+}
+
+option {
+    background: #999;
+    color: #fff;
+}
+
+.w3l-div, .w3l-div1 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0);
+    color: #333;
+}
+
+.w3ls-submit input[type="submit"] {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0d6bb3;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    color: #fff;
+    background: #d28b21;
+}
+
+footer {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+    color: #fff;
+    font-family: 'Roboto';
+   
+}
+
+    footer a {
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Roboto';
+        , serif;
+    }
+/*--responsive--*/
+@media(max-width:1920px) {
+    h1 {
+        padding: 30px 0 30px;
+    }
+
+    body {
+        padding-top: 70px;
+    }
+
+    footer {
+        margin: 70px 0 0 0;
+    }
+}
+
+@media(max-width:1680px) {
+}
+
+@media(max-width:1600px) {
+    h1 {
+        padding: 10px 0 10px 0;
+    }
+
+    body {
+        padding-top: 0px;
+    }
+
+    footer {
+        margin: 20px 0 20px 0;
+    }
+}
+
+@media(max-width:1440px) {
+}
+
+@media(max-width:1366px) {
+    footer {
+        margin: 20px 0 20px 0;
+    }
+}
+
+@media(max-width:1280px) {
+    h1 {
+        padding: 15px 0 15px 0;
+    }
+}
+
+@media(max-width:1080px) {
+    h1 {
+        padding: 15px 0 15px 0;
+    }
+}
+
+@media(max-width:1050px) {
+    h1 {
+        padding: 15px 0 15px 0;
+    }
+}
+
+@media(max-width:1024px) {
+}
+
+@media(max-width:991px) {
+}
+
+@media(max-width:900px) {
+    .w3ls-form {
+        width: 680px;
+    }
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .w3ls-form {
+        width: 600px;
+    }
+}
+
+@media(max-width:768px) {
+}
+
+@media(max-width:736px) {
+    i.fa {
+        width: 5%;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:667px) {
+    .w3ls-form {
+        width: 550px;
+    }
+
+    i.fa {
+        width: 5%;
+        margin-right: 2px;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 92%;
+    }
+
+    select.form-control, select.form-contro2, select.form-contro3 {
+        width: 92%
+    }
+}
+
+@media(max-width:640px) {
+    input[type="text"], input[type="email"] {
+        width: 92%;
+    }
+
+    select.form-control, select.form-contro2, select.form-contro3 {
+        width: 92%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .w3ls-form {
+        width: 470px;
+    }
+
+    i.fa {
+        width: 5%;
+        margin-right: 4px;
+    }
+
+    select.form-control, select.form-contro2, select.form-contro3 {
+        width: 90%;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 90%;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+
+        footer a {
+            font-size: 14px
+        }
+}
+
+@media(max-width:568px) {
+    footar {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    footer a {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .w3ls-form {
+        width: 380px;
+    }
+
+    .w3l-grid1, .w3l-grid2 {
+        float: left;
+        width: 100%;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:414px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .w3ls-form {
+        width: 320px;
+    }
+}
+
+@media(max-width:384px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    .w3ls-form {
+        width: 290px;
+    }
+}
+
+@media(max-width:375px) {
+}
+
+@media(max-width:320px) {
+    h1 {
+        font-size: 19px;
+    }
+
+    .w3ls-form {
+        width: 220px;
+    }
+
+    .w3ls-form {
+        width: 230px;
+    }
+}
+/*--/responsive--*/
+
+.required-label {
+    color: red;
+    margin-left: 4px;
+}
+
+.button-pane {
+    margin-top: 30px !important;
+}
+.notification {
+    margin-top: 5px;
+    color: red;
+}
